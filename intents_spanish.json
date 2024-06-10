@@ -1,0 +1,106 @@
+{
+    "intents": [
+      {
+        "tag": "saludo",
+        "patterns": ["Hola", "Buenos días", "Buenas tardes"],
+        "responses": ["¡Hola! ¿Cómo puedo ayudarte?", "Buenos días, ¿en qué puedo asistirte?", "Buenas tardes, ¿qué necesitas?"]
+      },
+      {
+        "tag": "saludo2",
+        "patterns": ["Qué tal", "Cómo estás", "Qué onda"],
+        "responses": ["Estoy bien, gracias por preguntar. ¿Y tú?", "Todo bien por aquí. ¿Cómo puedo ayudarte hoy?", "Aquí estamos, listos para asistirte. ¿Qué te trae por aquí?"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Adiós", "Hasta luego", "Nos vemos"],
+        "responses": ["Adiós, que tengas un buen día.", "Hasta luego, espero haberte sido de ayuda.", "Nos vemos, ¡gracias por usar nuestro servicio!"]
+      },
+      {
+        "tag": "agradecimiento",
+        "patterns": ["Gracias", "Te lo agradezco", "Muy amable"],
+        "responses": ["De nada, ¡siempre a tu servicio!", "No hay de qué, ¡fue un placer ayudarte!", "Es un placer, ¡estoy aquí para lo que necesites!"]
+      },
+      {
+        "tag": "compra",
+        "patterns": ["Quiero comprar", "Cómo puedo hacer una compra", "Proceso de compra"],
+        "responses": ["Para realizar una compra, puedes seguir estos pasos...", "Comprar es fácil, solo necesitas..."]
+      },
+      {
+        "tag": "devolucion",
+        "patterns": ["Necesito hacer una devolución", "Cómo devuelvo un producto", "Proceso de devolución"],
+        "responses": ["Para devolver un producto, debes...", "El proceso de devolución es el siguiente..."]
+      },
+
+      {
+        "tag": "politica_devolucion",
+        "patterns": ["Cuál es la política de devolución", "Política de devoluciones", "Derechos de devolución"],
+        "responses": ["Nuestra política de devolución es...", "Puedes devolver productos bajo las siguientes condiciones..."]
+      },
+      {
+        "tag": "consulta_inventario",
+        "patterns": ["¿Qué productos tienen en stock?", "¿Hay disponibilidad de...?", "Quiero saber si tienen... en inventario"],
+        "responses": ["Actualmente tenemos los siguientes productos en stock...", "Sí, tenemos disponibilidad de... ¿Cuántas unidades necesitas?", "Tenemos... en inventario. ¿Te interesa realizar una compra?"]
+      },
+      {
+        "tag": "consulta_envio",
+        "patterns": ["¿Cuándo llegará mi pedido?", "Estado del envío", "Rastrear mi paquete"],
+        "responses": ["Tu pedido está en camino y llegará en la fecha estimada de...", "El estado de tu envío es... Puedes rastrearlo aquí...", "Para rastrear tu paquete, ingresa tu número de seguimiento aquí..."]
+      },
+      {
+        "tag": "consulta_pago",
+        "patterns": ["¿Cómo puedo pagar mi orden?", "Métodos de pago", "Tengo un problema con mi pago"],
+        "responses": ["Puedes pagar tu orden utilizando...", "Ofrecemos varios métodos de pago como...", "Lamentamos que tengas un problema con tu pago. Por favor, intenta..."]
+      },
+      {
+        "tag": "consulta_tecnico",
+        "patterns": ["Necesito ayuda técnica", "Problema técnico", "Soporte técnico"],
+        "responses": ["¿Con qué dispositivo o servicio necesitas ayuda técnica?", "Por favor, descríbenos el problema técnico que estás experimentando.", "Nuestro equipo de soporte técnico está listo para ayudarte. Contacta con ellos aquí..."]
+      },
+      {
+        "tag": "contacto",
+        "patterns": ["¿Cómo puedo contactarlos?", "Necesito hablar con un representante", "Quiero contactar servicio al cliente"],
+        "responses": ["Puedes contactarnos a través de zorrillaraynier2003@gmail.com", "Para hablar con un representante, llama al 8297759359", "Nuestro servicio al cliente está disponible en..."]
+      },
+      {
+        "tag": "horario",
+        "patterns": ["¿Cuál es su horario de atención?", "Horario de servicio", "Horario de la tienda"],
+        "responses": ["Nuestro horario de atención es de 8:00 AM a 5:00 PM", "Estamos disponibles para servirte de 8:00 AM a 5:00 PM", "La tienda está abierta desde las 8:00 AM hasta las 5:00 PM"]
+      },
+      {
+        "tag": "costo_envio",
+        "patterns": ["¿Cuánto cuesta el envío?", "Tarifa de envío", "Precio del envío"],
+        "responses": ["El costo de envío es de...", "La tarifa de envío varía según...", "El precio para el envío es..."]
+      },
+      {
+        "tag": "tiempo_envio",
+        "patterns": ["¿Cuánto tarda el envío?", "Tiempo de entrega", "Plazo de envío"],
+        "responses": ["El envío tarda aproximadamente...", "El tiempo de entrega es de... días hábiles.", "El plazo de envío depende de..."]
+      },
+      {
+        "tag": "costo_envio_internacional",
+        "patterns": ["Costo de envío al extranjero", "Precio de envío internacional", "Tarifa internacional de envío"],
+        "responses": ["El costo de envío internacional es de...", "El precio para envíos al extranjero es...", "La tarifa internacional de envío se calcula basado en..."]
+      },
+      {
+        "tag": "tiempo_envio_internacional",
+        "patterns": ["Tiempo de envío al extranjero", "Plazo de entrega internacional", "Cuánto tarda un envío internacional"],
+        "responses": ["El tiempo de envío internacional es de...", "El plazo de entrega para envíos internacionales es...", "Un envío internacional puede tardar..."]
+      },
+      {
+        "tag": "costo_envio_nacional",
+        "patterns": ["Costo de envío dentro del país", "Precio de envío nacional", "Tarifa de envío local"],
+        "responses": ["El costo de envío nacional es de...", "El precio para envíos dentro del país es...", "La tarifa de envío local se determina por..."]
+      },
+      {
+        "tag": "periodo_devolucion",
+        "patterns": ["¿Cuánto tiempo tengo para devolver un producto?", "Plazo para devoluciones", "Periodo de devolución"],
+        "responses": ["Tienes un plazo de... días para devolver un producto.", "El periodo para realizar devoluciones es de...", "Puedes devolver productos dentro de los... días siguientes a la compra."]
+      },
+      {
+        "tag": "politica_devolucion",
+        "patterns": ["¿Cuál es su política de devolución?", "Política de devoluciones", "Derechos de devolución"],
+        "responses": ["Nuestra política de devolución es...", "Puedes devolver productos bajo las siguientes condiciones...", "Los derechos de devolución que ofrecemos son..."]
+      }
+    ]
+  }
+  
